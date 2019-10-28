@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom right, rgb(13, 86, 110), rgb(18, 100, 89));
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.scroll {
+  margin: 50px auto;
+  max-width: 1500px;
+  padding: 50px 0;
+  background: rgba(255,255,255,0.1);
+}
+
+@media screen and (max-width: 500px) {
+  h1.f1 {
+    font-size: 2.5em;
+  }
+
+  .scroll {
+    height: 75vh;
+    overflow-y: auto;
+  }
 }
