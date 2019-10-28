@@ -14,7 +14,9 @@ code {
 }
 
 .scroll {
-  margin: 50px auto;
+  margin: 50px auto 0;
+  overflow-y: auto;
+  height: 500px;
   max-width: 1500px;
   padding: 50px 0;
   background: rgba(255,255,255,0.1);
