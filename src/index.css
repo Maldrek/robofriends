@@ -22,6 +22,20 @@ code {
   background: rgba(255,255,255,0.1);
 }
 
+@media screen and (max-width: 1025px) {
+  .scroll {
+    height: 82vh;
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .scroll {
+    height: 76vh;
+    min-height: 500px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   h1.f1 {
     font-size: 2.5em;
